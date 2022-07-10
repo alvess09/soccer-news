@@ -3,23 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_news">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.alvesariel.soccer_news.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_news"
+        android:name="com.alvesariel.soccer_news.ui.news.NewsFragment"
+        android:label="@string/title_news"
+        tools:layout="@layout/fragment_news" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.alvesariel.soccer_news.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_favorites"
+        android:name="com.alvesariel.soccer_news.ui.favorites.FavoritesFragment"
+        android:label="@string/title_favorites"
+        tools:layout="@layout/fragment_favorites" />
 
-    <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.alvesariel.soccer_news.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+
 </navigation>

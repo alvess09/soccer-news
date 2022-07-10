@@ -1,4 +1,4 @@
-# MATCHES SIMULATOR APP
+# SOCCER NEWS APP
 ### Project developed during Bootcamp developer mobile at Santander
 
 > 🧑🏻‍💻Santander  && Digital Innovation One 🧑🏻‍💻
