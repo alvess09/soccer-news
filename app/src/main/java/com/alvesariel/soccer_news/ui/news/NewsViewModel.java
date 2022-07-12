@@ -4,16 +4,28 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
+import com.alvesariel.soccer_news.domain.News;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class NewsViewModel extends ViewModel {
 
-    private final MutableLiveData<String> mText;
+    private final MutableLiveData<List<News>> news;
 
     public NewsViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        news = new MutableLiveData<>();
+
+        List<News> news = new ArrayList<>();
+        news.add(new News("Flamengo avança ", "Flamengo avança no campeonato brasileiro0 "));
+        news.add(new News("Flamengo avança ", "Flamengo avança no campeonato brasileiro1 "));
+        news.add(new News("Flamengo avança ", "Flamengo avança no campeonato brasileiro2 "));
+
+        this.news.setValue(news);
     }
 
-    public LiveData<String> getText() {
-        return mText;
+    public LiveData<List<News>> getText() {
+
+        return this.news;
     }
 }
