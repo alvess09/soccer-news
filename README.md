@@ -7,13 +7,15 @@
 
 IN DEVELOPMENT! ..
 
-[X] 1 concepts </br>
-[X] 2 concepts </br>
-[X] 3 concepts(map, find, etc)</br>
-[X] 4</br>
-[X] 5</br>
-[X] 6</br>
-[X] 7</br>
+[X] Picasso Library </br>
+[X] Retrofit Library </br>
+[X] Gson library</br>
+[X] API Rest Consuming </br>
+[X] Use of Live Data </br>
+[X] java</br>
+[X] RecyclerView, Constraint Layout</br>
+
+> API LINK : https://alvess09.github.io/soccer-news-api/news.json </br>
 
 
 > Teacher: Venilton F JR. </br>
